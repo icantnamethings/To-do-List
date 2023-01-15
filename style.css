@@ -1,0 +1,32 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+#todo-list {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#todo-list li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px #ccc dotted;
+}
